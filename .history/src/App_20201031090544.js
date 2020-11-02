@@ -3,7 +3,7 @@ import Navbar from "./Component/Navbar";
 import "./App.scss";
 import ProductsContextProvider from "./Global/ProductsContext";
 import Products from "./Component/Products";
-import Carts from "./Component/Carts";
+import Cart from "./Component/Carts";
 import Notfound from "./Component/Notfound";
 import CartContextProvider from "./Global/CartContext";
 function App() {
@@ -14,7 +14,8 @@ function App() {
           <Navbar />
           <Switch>
             <Route path="/" exact component={Products} />
-            <Route path="/carts" exact component={Carts} />
+            <Route path="/cart" exact component={Cart} />
+            <Route component={Products} />
           </Switch>
         </Router>
       </ProductsContextProvider>
