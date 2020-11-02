@@ -20,7 +20,7 @@ const Navbar = () => {
             <NavLink to="carts">
               <FiShoppingCart className="icon" />
               <span className="shoppingCart">
-                <span className="cartCount">{qty}</span>
+                <span className="cartCount">{qty}</span>{" "}
               </span>
             </NavLink>
           </li>
