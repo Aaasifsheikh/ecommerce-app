@@ -18,7 +18,7 @@ function App() {
             <Route path="/carts" exact component={Carts} />
           </Switch>
         </Router>
-      </ProductsContextProvider>
+      </ProductsContextProvider> 
     </CartContextProvider>
   );
 }
