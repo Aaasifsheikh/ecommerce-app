@@ -4,6 +4,9 @@ import { NavLink } from "react-router-dom";
 import { FiShoppingCart } from "react-icons/fi";
 
 const Navbar = () => {
+  const history = useH
+  const gotoCart =()=>{
+  }
   const { qty, shoppingCart } = useContext(CartContext);
   return (
     <React.Fragment>
@@ -17,12 +20,12 @@ const Navbar = () => {
         </ul>
         <ul className="right">
           <li>
-            <NavLink to="cart">
+            <div onClick={gotoCart} >
               <span className="shoppingCart">
-                <FiShoppingCart className="icon" />
+              <FiShoppingCart className="icon" />
                 <span className="cartCount">{qty}</span>
               </span>
-            </NavLink>
+            </div>
           </li>
         </ul>
       </nav>

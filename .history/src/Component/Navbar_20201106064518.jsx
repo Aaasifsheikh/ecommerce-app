@@ -17,7 +17,7 @@ const Navbar = () => {
         </ul>
         <ul className="right">
           <li>
-            <NavLink to="cart">
+            <NavLink to=>
               <span className="shoppingCart">
                 <FiShoppingCart className="icon" />
                 <span className="cartCount">{qty}</span>

@@ -14,9 +14,9 @@ function App() {
         <Router>
           <Navbar />
           <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/cart" exact component={Cart} />
-            <Route component={Notfound} />
+            <Route path="/" component={Home} />
+            <Route path="/Cart" component={Cart} />
+
           </Switch>
         </Router>
       </ProductsContextProvider>

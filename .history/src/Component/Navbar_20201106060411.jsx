@@ -17,12 +17,12 @@ const Navbar = () => {
         </ul>
         <ul className="right">
           <li>
-            <NavLink to="cart">
+            <div onClick={goto} >
               <span className="shoppingCart">
-                <FiShoppingCart className="icon" />
+              <FiShoppingCart className="icon" />
                 <span className="cartCount">{qty}</span>
               </span>
-            </NavLink>
+            </div>
           </li>
         </ul>
       </nav>

@@ -3,20 +3,20 @@ import Navbar from "./Component/Navbar";
 import "./App.scss";
 import ProductsContextProvider from "./Global/ProductsContext";
 import Products from "./Component/Products";
-import Cart from "./Component/Cart";
+import Carts from "./Component/Carts";
 import Notfound from "./Component/Notfound";
 import CartContextProvider from "./Global/CartContext";
-import Home from "./Component/Home";
+import Home from './Component/Home';
 function App() {
   return (
     <CartContextProvider>
       <ProductsContextProvider>
         <Router>
-          <Navbar />
           <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/cart" exact component={Cart} />
-            <Route component={Notfound} />
+          <Navbar />
+            <Route exact path="/" component={} />
+            <Products />
+            <Route path="/carts" exact component={Carts} />
           </Switch>
         </Router>
       </ProductsContextProvider>

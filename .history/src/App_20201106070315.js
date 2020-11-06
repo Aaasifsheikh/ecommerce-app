@@ -9,14 +9,16 @@ import CartContextProvider from "./Global/CartContext";
 import Home from "./Component/Home";
 function App() {
   return (
+    <React.
     <CartContextProvider>
       <ProductsContextProvider>
         <Router>
           <Navbar />
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/" component={Home} />
             <Route path="/cart" exact component={Cart} />
-            <Route component={Notfound} />
+            <Route path="not" exact component={Notfound} />
+
           </Switch>
         </Router>
       </ProductsContextProvider>

@@ -23,6 +23,7 @@ const Navbar = () => {
                 <span className="cartCount">{qty}</span>
               </span>
             </NavLink>
+            <NavLink to=""
           </li>
         </ul>
       </nav>
