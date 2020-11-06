@@ -14,8 +14,11 @@ function App() {
           <Navbar />
           <Switch>
             <Route exact path="/ecommerce-app" component={Home} />
+            <Home />
             <Route exact path="/cart" component={Cart} />
+            <Cart />
             <Route component={Notfound} />
+
           </Switch>
         </Router>
       </ProductsContextProvider>
