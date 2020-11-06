@@ -10,7 +10,7 @@ const Navbar = () => {
       <nav>
         <ul className="left">
           <li>
-            <NavLink to="/ecommerce-app" className="heading">
+            <NavLink to="/ecommerce" className="heading">
               <span style={{ color: "black" }}>Shopping</span>Express
             </NavLink>
           </li>

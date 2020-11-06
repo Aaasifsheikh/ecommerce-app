@@ -335,13 +335,13 @@ header {
 
 /*----------- MObile View-----------------*/
 
-@media only screen and (min-width: 360px) and (max-width: 768px) {
+@media only screen and (min-width: 360px) and (max-width: 767px) {
   .right {
     display: inline-block;
   }
   .left {
     text-align: left;
-    margin-left: 40px;
+    pr
   }
 
   .header_text {
@@ -354,9 +354,6 @@ header {
   .main_text {
     // color: green;
     font-size: 20px;
-   text-align: center;
-   justify-content: center;
-   padding-right: 10px;
   }
   .products {
     flex-direction: column;

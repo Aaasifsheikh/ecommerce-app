@@ -28,6 +28,7 @@ nav {
   & ul a {
     text-decoration: none;
   }
+
 }
 .heading {
   font-weight: 700;
@@ -44,9 +45,10 @@ nav {
   width: 60%;
   text-align: right;
 }
-.icon {
+.icon{
   color: blue;
   margin-top: 10px;
+  
 }
 
 .shoppingCart {
@@ -56,6 +58,7 @@ nav {
   margin-right: 10px;
   padding-right: 10px;
   cursor: pointer;
+
 }
 
 .cartCount {
@@ -335,16 +338,13 @@ header {
 
 /*----------- MObile View-----------------*/
 
-@media only screen and (min-width: 360px) and (max-width: 768px) {
-  .right {
-    display: inline-block;
-  }
-  .left {
-    text-align: left;
-    margin-left: 40px;
-  }
-
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+   .right{
+     display: inline-block;
+   }
   .header_text {
+    text-align: left;
+
     padding: 0px 15px;
     flex-wrap: wrap;
     &h1 {
@@ -354,9 +354,6 @@ header {
   .main_text {
     // color: green;
     font-size: 20px;
-   text-align: center;
-   justify-content: center;
-   padding-right: 10px;
   }
   .products {
     flex-direction: column;

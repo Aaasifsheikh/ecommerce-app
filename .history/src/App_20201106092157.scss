@@ -28,6 +28,7 @@ nav {
   & ul a {
     text-decoration: none;
   }
+
 }
 .heading {
   font-weight: 700;
@@ -44,18 +45,16 @@ nav {
   width: 60%;
   text-align: right;
 }
-.icon {
-  color: blue;
-  margin-top: 10px;
-}
 
 .shoppingCart {
   display: inline-block;
   font-size: 20px;
   color: $lightDark;
-  margin-right: 10px;
+  margin-right: 20px;
   padding-right: 10px;
   cursor: pointer;
+  // justify-content: space-between;
+
 }
 
 .cartCount {
@@ -68,7 +67,7 @@ nav {
   line-height: 35px;
   text-align: center;
   font-size: 12px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 // helpers
@@ -335,15 +334,7 @@ header {
 
 /*----------- MObile View-----------------*/
 
-@media only screen and (min-width: 360px) and (max-width: 768px) {
-  .right {
-    display: inline-block;
-  }
-  .left {
-    text-align: left;
-    margin-left: 40px;
-  }
-
+@media only screen and (min-width: 360px) and (max-width: 767px) {
   .header_text {
     padding: 0px 15px;
     flex-wrap: wrap;
@@ -354,9 +345,6 @@ header {
   .main_text {
     // color: green;
     font-size: 20px;
-   text-align: center;
-   justify-content: center;
-   padding-right: 10px;
   }
   .products {
     flex-direction: column;

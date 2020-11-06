@@ -13,7 +13,7 @@ function App() {
         <Router>
           <Navbar />
           <Switch>
-            <Route path="/ecommorce-app" component={Home} />
+            <Route path="/ecommorce" component={Home} />
             <Home />
             <Route path="/cart" exact component={Cart} />
             <Route component={Notfound} />
