@@ -3,7 +3,7 @@ import Navbar from "./Component/Navbar";
 import "./App.scss";
 import ProductsContextProvider from "./Global/ProductsContext";
 import Cart from "./Component/Cart";
-// import Notfound from "./Component/Notfound";
+import Notfound from "./Component/Notfound";
 import CartContextProvider from "./Global/CartContext";
 import Home from "./Component/Home";
 function App() {

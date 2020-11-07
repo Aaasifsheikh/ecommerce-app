@@ -31,7 +31,7 @@ const ProductsContextProvider = (props) => {
     { id: 8, name: "Sets of 3 Denim-Jeans for men ", price: 2800, cutprice: 4200, Image: jeans, rating: "🌟🌟🌟🌟", status: "hot" },
     { id: 8, name: "Realme Smartwatch ", price: 3399, cutprice: 5300, Image: smartWatch, rating: "🌟🌟🌟", status: "hot" },
     { id: 8, name: "Cap for Mens", price: 699, cutprice: 899, Image: cap, rating: "🌟🌟🌟", status: "new" },
-    { id: 8, name: "Mi Powerbank-20000mAh", price: 2749, cutprice: 3999, Image: powerbank, rating: "🌟🌟🌟🌟", status: "hot" },
+    { id: 8, name: "Mi Powerbank-faster than you think", price: 2749, cutprice: 3999, Image: powerbank, rating: "🌟🌟🌟🌟", status: "hot" },
     { id: 8, name: "Bicycle-For All Generation", price: 8500, cutprice: 11780, Image: bicycle, rating: "🌟🌟🌟🌟🌟", status: "new" },
     { id: 8, name: "Tablet-for reader", price: 22700, cutprice: 35500, Image: tablet, rating: "🌟🌟🌟🌟", status: "new" },
     { id: 8, name: "Hp Laptop", price: 51300, cutprice: 68000, Image: hplaptop, rating: "🌟🌟🌟🌟🌟", status: "hot" },
