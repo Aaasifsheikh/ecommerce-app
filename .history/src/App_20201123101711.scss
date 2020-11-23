@@ -60,6 +60,8 @@ nav {
   color: blue;
   margin-top: 10px;
   object-fit: contain;
+  padding-top: 10px;
+  font
 }
 
 .shoppingCart {
@@ -74,16 +76,15 @@ nav {
 
 .cartCount {
   display: inline-block;
-  object-fit: contain;
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   background: $mainColor;
   color: $whiteColor;
   border-radius: 50%;
-  line-height: 25px;
+  line-height: 35px;
   text-align: center;
-  font-size: 17px;
-  margin-left: 10px;
+  font-size: 12px;
+  margin-left: 15px;
 }
 
 // helpers
@@ -363,27 +364,16 @@ header {
   .navbar {
     // display: flex;
     width: 100%;
-    object-fit: contain;
     // justify-content: space-around;
   }
-  // .left {
-  //   justify-content: left;
-  //   text-align: left;
-  // }
-  // .right {
-  //   justify-content: left;
-  //   align-items: left;
-
-  // }
-  // .shoppingCart{
-  //   // padding-bottom: 20px;
-  //   justify-content: space-between;
-  // }
-  // .cartCount{
-  //   padding-top: .5px;
-  //   padding-right: 10px;
-  //   font-size: 70px;
-  // }
+  .left {
+    justify-content: left;
+    text-align: left;
+  }
+  .right {
+    justify-content: left;
+    align-items: left;
+  }
 
   .header_text {
     padding: 0px 15px;
@@ -444,33 +434,29 @@ header {
   }
   .right {
     width: 60%;
-    display: inline-block;
     text-align: right;
     padding-left: 80px;
-    padding-top: 10px;
+    padding-top: 20px;
   }
 
   .shoppingCart {
     display: flex;
-    font-size: 20px;
+    font-size: 24px;
     color: $lightDark;
     margin-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 25px;
+    padding-right: 30px;
   }
 
   .cartCount {
     display: inline-block;
-    width: 30px;
+    width: 33px;
     height: 30px;
     background: $mainColor;
     color: $whiteColor;
     border-radius: 50%;
-    line-height: 30px;
-    padding-right: 10px;
+    line-height: 32px;
     text-align: center;
-    font-size: 18px;
-    padding-left: 10px;
-    margin-top: 10px;
+    font-size: 12px;
+    padding-left: 20px;
   }
 }

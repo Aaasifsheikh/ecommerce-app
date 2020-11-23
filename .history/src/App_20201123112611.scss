@@ -80,9 +80,9 @@ nav {
   background: $mainColor;
   color: $whiteColor;
   border-radius: 50%;
-  line-height: 25px;
+  line-height: 28px;
   text-align: center;
-  font-size: 17px;
+  font-size: 18px;
   margin-left: 10px;
 }
 
@@ -447,16 +447,16 @@ header {
     display: inline-block;
     text-align: right;
     padding-left: 80px;
-    padding-top: 10px;
+    padding-top: 20px;
   }
 
   .shoppingCart {
     display: flex;
-    font-size: 20px;
+    font-size: 24px;
     color: $lightDark;
     margin-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 25px;
+    padding-right: 20px;
+    padding-bottom: ;
   }
 
   .cartCount {
@@ -471,6 +471,5 @@ header {
     text-align: center;
     font-size: 18px;
     padding-left: 10px;
-    margin-top: 10px;
   }
 }
