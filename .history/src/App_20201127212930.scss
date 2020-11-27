@@ -124,6 +124,10 @@ header {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  transition: transform 450ms;
+}
+.product:hover{
+  transform: scale(1.5);
 }
 
 .cutprice {
@@ -158,10 +162,6 @@ header {
   height: 200px;
   object-fit: contain;
   overflow: hidden;
-  transition: transform 450ms;
-}
-.product-image:hover {
-  transform: scale(1.09);
 }
 .product_details {
   padding: 15px 10px;

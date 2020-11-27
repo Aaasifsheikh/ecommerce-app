@@ -138,6 +138,10 @@ header {
   margin: 20px 0;
   overflow: hidden;
   position: relative;
+  transition: transform 450ms;
+}
+.product:hover{
+  tr
 }
 .hot {
   position: absolute;
@@ -158,10 +162,6 @@ header {
   height: 200px;
   object-fit: contain;
   overflow: hidden;
-  transition: transform 450ms;
-}
-.product-image:hover {
-  transform: scale(1.09);
 }
 .product_details {
   padding: 15px 10px;

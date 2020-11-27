@@ -160,9 +160,9 @@ header {
   overflow: hidden;
   transition: transform 450ms;
 }
-.product-image:hover {
-  transform: scale(1.09);
-}
+    .products:hover{
+      transform: scale(1.5);
+    }s
 .product_details {
   padding: 15px 10px;
   text-align: center;
@@ -170,7 +170,7 @@ header {
   border-left: 1px solid #fafafa;
   border-right: 1px solid #fafafa;
 }
-.product_name {
+.roduct_name {
   font-size: 18px;
   font-weight: 500;
   margin: 12px 0;

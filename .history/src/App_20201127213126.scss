@@ -160,9 +160,9 @@ header {
   overflow: hidden;
   transition: transform 450ms;
 }
-.product-image:hover {
-  transform: scale(1.09);
-}
+    .products:hover{
+      transform: scale(1.5);
+    }
 .product_details {
   padding: 15px 10px;
   text-align: center;
