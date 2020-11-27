@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ecommerce-app/static/css/main.185254f5.chunk.css",
-    "main.js": "/ecommerce-app/static/js/main.20127d41.chunk.js",
-    "main.js.map": "/ecommerce-app/static/js/main.20127d41.chunk.js.map",
+    "main.css": "/ecommerce-app/static/css/main.ed966f3f.chunk.css",
+    "main.js": "/ecommerce-app/static/js/main.2e23bb8f.chunk.js",
+    "main.js.map": "/ecommerce-app/static/js/main.2e23bb8f.chunk.js.map",
     "runtime-main.js": "/ecommerce-app/static/js/runtime-main.2e078230.js",
     "runtime-main.js.map": "/ecommerce-app/static/js/runtime-main.2e078230.js.map",
     "static/js/2.f93199df.chunk.js": "/ecommerce-app/static/js/2.f93199df.chunk.js",
     "static/js/2.f93199df.chunk.js.map": "/ecommerce-app/static/js/2.f93199df.chunk.js.map",
     "index.html": "/ecommerce-app/index.html",
-    "static/css/main.185254f5.chunk.css.map": "/ecommerce-app/static/css/main.185254f5.chunk.css.map",
+    "static/css/main.ed966f3f.chunk.css.map": "/ecommerce-app/static/css/main.ed966f3f.chunk.css.map",
     "static/js/2.f93199df.chunk.js.LICENSE.txt": "/ecommerce-app/static/js/2.f93199df.chunk.js.LICENSE.txt",
     "static/media/Headphone.jpg.18573ef2.jpg": "/ecommerce-app/static/media/Headphone.jpg.18573ef2.jpg",
     "static/media/bicycle.4434e6c4.jpg": "/ecommerce-app/static/media/bicycle.4434e6c4.jpg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.2e078230.js",
     "static/js/2.f93199df.chunk.js",
-    "static/css/main.185254f5.chunk.css",
-    "static/js/main.20127d41.chunk.js"
+    "static/css/main.ed966f3f.chunk.css",
+    "static/js/main.2e23bb8f.chunk.js"
   ]
 }
